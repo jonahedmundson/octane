@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgba(0, 0, 0, 1);
-  background-image: url('./assets/bg-op25.png');
+  background-image: url('./assets/bg2-op40.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh; /* Set the height to 100% of the viewport height */
@@ -55,7 +55,7 @@ body {
   }
 
   .small-logo {
-    height: 8vh; 
+    height: max(8vh, 2vw); 
     margin-left: 1vw; 
     margin-top: 1vh;
   }
@@ -71,7 +71,7 @@ body {
   }
 
   .main-gif {
-    height: 60vh;
+    height: max(60vh, 15vw);
   }
 
   .main-gif-container {
@@ -81,7 +81,7 @@ body {
 
   .list-item {
     text-align: right;
-    font-size: 4vw;
+    font-size: max(3vw, 5vh);
     font-weight: normal;
   }
 
@@ -119,17 +119,19 @@ body {
     position: absolute;
     bottom: 15vh;
     left: 5vw;
-    font-size: 5vh; 
+    font-size: max(4vh, 2vw); 
   }
 
 
   .motto {
     position: absolute;
     padding: 2vh;
-    bottom: 2vh;
-    right: 5vh;
+    /* bottom: 2vh;
+    right: 5vh; */
+    top: 10vh;
+    left: max(25vw, 350px);
     font-weight: normal;
-    font-size: 1vw;
+    font-size: max(2vh, 1vw);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
