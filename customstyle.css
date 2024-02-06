@@ -76,7 +76,7 @@ body {
 
   .main-gif-container {
     position: absolute;
-    top: 15vh;
+    top: 20vh;
   } 
 
   .list-item {
@@ -121,19 +121,31 @@ body {
     bottom: 5vw;
     left: 5vw;
     font-size: max(4vh, 2vw); 
+    /* background-color: #0000008f;
+    border-radius: 12px;
+    padding: 1vw; */
   }
 
 
   .motto {
     position: absolute;
     padding: 2vh;
-    /* bottom: 2vh;
-    right: 5vh; */
     bottom: 30vh;
     left: max(20vw, 300px);
     font-weight: normal;
     font-size: max(2vh, 1vw);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+
+  .motto2 {
+    position: absolute;
+    padding: 2vh;
+    top: 5vh;
+    font-weight: normal;
+    line-height: 50%;
+    font-size: max(2vh, 1vw);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
 
