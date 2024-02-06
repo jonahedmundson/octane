@@ -84,7 +84,7 @@ _::-webkit-full-page-media, _:future, :root html, body {
 
   .main-gif-container {
     position: absolute;
-    top: 30vh;
+    top: 27vh;
     left: 48%;
     transform: translate(-50%, 0);
     text-align: center;
