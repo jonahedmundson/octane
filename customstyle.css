@@ -92,7 +92,8 @@ _::-webkit-full-page-media, _:future, :root html, body {
 
   .list-item {
     text-align: center;
-    font-size: max(2vw, 4vh);
+    font-size: max(2vw, 3vh);
+    line-height: 130%;
     font-weight: normal;
   }
 
@@ -101,7 +102,7 @@ _::-webkit-full-page-media, _:future, :root html, body {
     left: 50%;
     transform: translate(-50%, 0);
     text-align: center;
-    bottom: 5vh;
+    bottom: 3vh;
     width: 70vw;
     max-width: 80vw;
     background-color: #0000008f;
