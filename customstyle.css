@@ -33,6 +33,89 @@ body {
     width: 100%;
   }
 
+  .small-logo {
+    width: 90vw; 
+    margin-left: 1vw; 
+    margin-top: 1vh;
+  }
+
+  .blurb {
+    position: absolute;
+    max-width: 90vw;
+    top: 15vh;
+    left: 1vw;
+    font-size: max(2.5vh, 5vw); 
+    /* background-color: #0000008f;
+    border-radius: 12px; */
+    padding: 3vw;
+  }
+
+  .motto2 {
+    position: absolute;
+    padding: 2vh;
+    top: 4vh;
+    font-weight: normal;
+    font-size: max(1vh, 4vw);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .link-nostyle {
+    color: #fff;
+    text-decoration: none;
+  } 
+
+  p {
+    background-color: #0000008f;
+    border-radius: 6px; 
+    padding: 3vw;
+  }
+
+  .main-gif {
+    height: max(35vh, 20vw);
+  }
+
+  .main-gif-container {
+    position: absolute;
+    top: 30vh;
+    left: 48%;
+    transform: translate(-50%, 0);
+    text-align: center;
+  } 
+
+  .list-item {
+    text-align: center;
+    font-size: max(2vw, 4vh);
+    font-weight: normal;
+  }
+
+  .list-container {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    bottom: 5vh;
+    width: 70vw;
+    max-width: 80vw;
+    background-color: #0000008f;
+    border-radius: 6px;
+    padding: 3vw;
+  }
+
+  .list-item a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1vh;
+  }
+
+  .list-item a:hover {
+    background-color: #fff;
+    color: black;
+    border-radius: 12px; 
+  }
+
+  .list-item a:visited {
+    color: #ba460a;
+  }
   
 
 
@@ -126,7 +209,7 @@ body {
     padding: 1vw; */
   }
 
-
+/* 
   .motto {
     position: absolute;
     padding: 2vh;
@@ -135,7 +218,7 @@ body {
     font-weight: normal;
     font-size: max(2vh, 1vw);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
+  } */
 
 
   .motto2 {
@@ -147,6 +230,11 @@ body {
     font-size: max(2vh, 1vw);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
+
+  .link-nostyle {
+    color: #fff;
+    text-decoration: none;
+  } 
 
 
 }
