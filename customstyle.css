@@ -244,6 +244,41 @@ _::-webkit-full-page-media, _:future, :root html, body {
     max-width: 90vw;
   }
 
+  
+  .portfolio-col {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+        flex: 1;
+    margin: auto;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    text-align: center; 
+    align-items: center;
+    position: relative;
+    height: min-content;
+    max-width: max(90vw, 400px);
+    margin-top: min(8vh, 80px);
+    background-color: none;
+    border-radius: 12px;
+    font-size: max(2vh, 10px);
+  }
+
+  .portfolio-col img {
+    border-radius: 15px;
+    max-width: 90vw;
+    padding: 1vh;
+  }
+
+
+  .portfolio-col h2 {
+    padding: 1vh;
+    margin-top: 0vh;
+    margin-bottom: 5vh;
+    max-width: 25vw;
+    margin: auto;
+    background-color: #ffffff00;
+  }
+
 
 }
 
@@ -453,6 +488,7 @@ _::-webkit-full-page-media, _:future, :root html, body {
     background-color: #00000000;
     padding: 0vw;
     padding-left: 1vw;
+    padding-right: 1vw;
   }
 
   .pricing-col h1{
@@ -515,6 +551,40 @@ _::-webkit-full-page-media, _:future, :root html, body {
       max-width: 65vw;
       left: 5vw;
       font-size: max(1vh, 0.75vw); 
+    }
+
+    .portfolio-col {
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+      margin: auto;
+      margin-left: 1vw;
+      margin-right: 1vw;
+      text-align: center; 
+      align-items: center;
+      position: relative;
+      height: min-content;
+      max-width: max(40vw, 400px);
+      margin-top: min(8vh, 80px);
+      background-color: none;
+      border-radius: 12px;
+      font-size: max(2vh, 10px);
+    }
+
+    .portfolio-col img {
+      border-radius: 30px;
+      max-width: 35vw;
+      padding: 2vh;
+    }
+
+
+    .portfolio-col h2 {
+      padding: 1vh;
+      margin-top: 0vh;
+      margin-bottom: 5vh;
+      max-width: 25vw;
+      margin: auto;
+      background-color: #ffffff00;
     }
 
 }
