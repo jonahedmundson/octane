@@ -210,4 +210,8 @@ div img {
       margin-left: 0px !important;
       margin-right: auto !important;
     }
+
+    .slide-track {
+      gap: 75px;
+    }
 }
