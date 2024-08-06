@@ -120,7 +120,7 @@ div img {
 .slide img {
   width: 100px;
   height: 100px;
-  animation: scroll 60s linear infinite; 
+  animation: scroll 50s linear infinite; 
   filter: grayscale(100%);
 }
 
