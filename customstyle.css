@@ -46,7 +46,7 @@ p {
 
 a:link, a:visited, a:hover, a:active { 
     text-decoration: none; 
-    color: #d07e44;
+    color: #ffc100;
 }
 
 
@@ -86,11 +86,11 @@ div img {
 }
 
 .bton {
-    background-color: white; 
+    background-color: black; 
     border: 3px solid black;
-    box-shadow: -3px 5px 0px 1px #510401;
+    box-shadow: -3px 5px 0px 1px #B86221;
     border-radius: 12px;
-    color: black !important;
+    color: white !important;
     width: fit-content;
     padding: 10px;
     transition: 0.3s;
@@ -98,8 +98,8 @@ div img {
 
 .bton:hover {
     transform: scale(1.05);
-    background-color: black;
-    color: white !important;
+    background-color: white;
+    color: black !important;
 }
 
 
@@ -113,7 +113,7 @@ div img {
 
 .col {
   width: 20vw;
-  border: 3px solid #510401;
+  border: 3px solid #B86221;
   padding: 20px;
   border-radius: 12px;
 }
