@@ -87,7 +87,7 @@ div img {
 
 .bton {
     background-color: black; 
-    border: 3px solid black;
+    border: 3px solid white;
     box-shadow: -3px 5px 0px 1px #B86221;
     border-radius: 12px;
     color: white !important;
@@ -99,6 +99,7 @@ div img {
 .bton:hover {
     transform: scale(1.05);
     background-color: white;
+    border: 3px solid black;
     color: black !important;
 }
 
